@@ -6,8 +6,10 @@ const Header = () => {
         <nav className='header'>
             <img src={logo} alt="" />
             <div className="">
-                <input type="text" />
+               
+                <input placeholder='Shala Marbo Ekhane, Lash Porbe Bagane...' type="text" />
                 <button>Search</button>
+                
                 <a href="/shop">Shop</a>
                 <a href="/orders">Order</a>
                 <a href="/inventory">Inventory</a>
