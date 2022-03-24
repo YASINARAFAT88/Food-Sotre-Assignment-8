@@ -2,3 +2,39 @@
     position: fixed;
     padding: 30px 20px;
 }
+.logo{
+    background-color: #1C2B35;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+.place-order{
+    width: 200px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.delate-items{
+    width: 200px;
+    height: 35px;
+    background-color: red;
+    color: wheat;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    font-size: 18px;
+}
+.place-order:hover{
+    width: 220px;
+    transition: .2s;
+}
+.delate-items:hover{
+    width: 220px;
+    transition: .2s;
+}
