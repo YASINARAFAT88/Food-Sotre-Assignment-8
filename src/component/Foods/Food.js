@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import FoodCart from '../FoodCart/FoodCart';
+import logo from './icon.jpg'
 import './Food.css'
 
 const Food = () => {
@@ -15,7 +16,12 @@ const Food = () => {
     const handleClick = (food) =>{
         console.log(food)
         const newCart = [...cart, food];
-        setCart(newCart)
+        if(newCart.length > 4){
+            alert('do not click plz...')
+        }else{
+            setCart(newCart)
+        }
+        
     }
     return (
         <div className="food-container">
@@ -28,9 +34,14 @@ const Food = () => {
                 }
             </div>
             <div className="cart-detail">
+                <img className='icon' src={logo} alt="" />
+              
                {
-                   cart.map(item => <h3 key={item.id}>Name: {item.name}</h3>)
+                   cart.map(item => <h3 className='food-name' key={item.id}>Name: {item.name}</h3>)
                }
+               <button className='btn-choose'>Choose 1 for me</button> <br />
+               <button className='btn-try'>try Again</button>
+               
             </div>
         </div>
     );

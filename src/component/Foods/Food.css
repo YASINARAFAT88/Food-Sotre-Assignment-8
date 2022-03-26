@@ -2,6 +2,13 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+.icon{
+    width: 50px;
+    margin-left: 37%;
+    margin-top: 10%;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
 .food-cart{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,13 +16,40 @@
     margin-left: 50px;
     margin-right: 10px;
 }
+.cart-detail{
+    background-color: orange;
+    border-radius: 8px 8px 0 0;
+}
+.cart-detail{
+    background-color: orange;
+}
+.food-name{
+    color: aliceblue;
+    margin-left: 5px;
+}
+.btn-choose{
+    width: 150px;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    background-color: black ;
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+}
+.btn-try{
+    width: 150px;
+    height: 35px;
+    margin-left: 10px;
+    background-color: red ;
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+}
 @media screen and (max-width:688px) {
     .food-cart{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 20px;
         margin-right: 10px;
-    }
-    .cart-detail{
-        
     }
 }
