@@ -6,6 +6,7 @@ import './Food.css'
 const Food = () => {
     const [foods, setFood] = useState([]);
     const [cart, setCart] = useState([])
+    const [random, setRandom] = useState([])
 
     useEffect(()=>{
         fetch('data.json')
@@ -14,7 +15,7 @@ const Food = () => {
     },[])
     
     const handleClick = (food) =>{
-        console.log(food)
+        // console.log(food)
         const newCart = [...cart, food];
         if(newCart.length > 4){
             alert('do not click plz...')
@@ -23,6 +24,11 @@ const Food = () => {
         }
         
     }
+
+    function randomName (random) {
+         const cart = random[Math.floor((Math.random()*random.length))];
+            return cart
+        } 
     return (
         <div className="food-container">
             <div className="food-cart">
@@ -39,8 +45,9 @@ const Food = () => {
                {
                    cart.map(item => <h3 className='food-name' key={item.id}>Name: {item.name}</h3>)
                }
-               <button className='btn-choose'>Choose 1 for me</button> <br />
-               <button className='btn-try'>try Again</button>
+               <button onClick={()=> randomName()}  className='btn-choose'>Choose 1 for me</button> <br />
+               <button onClick={() => setCart([])} className='btn-try'>try Again</button>
+               <h1>{}</h1>
                
             </div>
         </div>
