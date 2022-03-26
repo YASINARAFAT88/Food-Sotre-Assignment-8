@@ -1,0 +1,21 @@
+.food-img{
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.cart{
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.cart-info{
+    margin: 10px;
+}
+.cart-btn{
+    width: 100%;
+    border: none;
+    border-radius: 0px 0xp 8px 8xp;
+    background-color: orange;
+    padding: 12px;
+    font-weight: 700;
+}

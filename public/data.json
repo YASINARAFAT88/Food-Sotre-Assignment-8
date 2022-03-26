@@ -1,0 +1,56 @@
+[
+    {
+      "id": "623e09cb92197bc5d5d304cc",
+      "price": 200,
+      "picture": "https://img.freepik.com/free-photo/big-double-cheddar-cheeseburger-with-chicken-cutlet_147620-1306.jpg?w=740",
+      "name": "Chicken Burger"
+    },
+    {
+      "id": "623e09cb168d22e4a22ec2be",
+      "price": 210,
+      "picture": "https://img.freepik.com/free-photo/top-view-vegetable-soup-with-meat-inside-plate-grey_140725-36040.jpg?t=st=1648239052~exp=1648239652~hmac=a4f84feeeb01c5b213dcb471faa1c64f1d1a11895d9476ba22be7cb3b9629657&w=900",
+      "name": "chui-Fry"
+    },
+    {
+      "id": "623e09cb2de86184350025f8",
+      "price": 250,
+      "picture": "https://www.recipetineats.com/wp-content/uploads/2019/08/Avocado-Chicken-Burgers_9.jpg",
+      "name": "Dubble petti burger"
+    },
+    {
+      "id": "623e09cb7182ab38566ba2fe",
+      "price": 300,
+      "picture": "https://static.onecms.io/wp-content/uploads/sites/9/2021/03/10/spicy-chicken-curry-FT-RECIPE0321.jpg",
+      "name": "Chicken Curry"
+    },
+    {
+      "id": "623e09cbfb38a28733204d17",
+      "price": 380,
+      "picture": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-madras-d09bd7f.jpg",
+      "name": "fried Chicken"
+    },
+    {
+      "id": "623e09cbff01be442ab19346",
+      "price": 470,
+      "picture": "https://www.currytrail.in/wp-content/uploads/2020/01/Detox-Chicken-Soup-320x321.jpg",
+      "name": "Chicken Soup"
+    },
+    {
+      "id": "623e09cbb6dc49dc60e8a126",
+      "price": 190,
+      "picture": "https://3.bp.blogspot.com/-6nhnFJxsaFE/XCIEWbcbWXI/AAAAAAAAgXw/j86ojpeLG7M1AMdpoySor80b4KotLnhygCLcBGAs/s1600/Subsi7.jpg",
+      "name": "Boss pasta"
+    },
+    {
+      "id": "623e09cb82ccaa17eb996112",
+      "price": 120,
+      "picture": "https://hips.hearstapps.com/hmg-prod/images/delish-bucatinipasta-028-ls-1607552701.jpg",
+      "name": "Chaomien"
+    },
+    {
+      "id": "623e09cb82ccaa17eb996113",
+      "price": 200,
+      "picture": "https://www.collinsdictionary.com/images/full/salad_134301953.jpg",
+      "name": "Salad"
+    }
+  ]
