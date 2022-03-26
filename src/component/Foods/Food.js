@@ -3,7 +3,8 @@ import FoodCart from '../FoodCart/FoodCart';
 import './Food.css'
 
 const Food = () => {
-    const [foods, setFood] = useState([])
+    const [foods, setFood] = useState([]);
+    const [cart, setCart] = useState([])
 
     useEffect(()=>{
         fetch('data.json')
@@ -11,17 +12,25 @@ const Food = () => {
         .then(data => setFood(data))
     },[])
     
+    const handleClick = (food) =>{
+        console.log(food)
+        const newCart = [...cart, food];
+        setCart(newCart)
+    }
     return (
         <div className="food-container">
             <div className="food-cart">
                 {
                     foods.map(food => <FoodCart
                     key={food.id} food={food}
+                    handleClick={handleClick}
                     ></FoodCart>)
                 }
             </div>
             <div className="cart-detail">
-                <h2>detail</h2>
+               {
+                   cart.map(item => <h3 key={item.id}>Name: {item.name}</h3>)
+               }
             </div>
         </div>
     );
